@@ -1,0 +1,10 @@
+
+# Dataset configuration for YOLOv5
+train: /content/drive/MyDrive/pest-dataset/HighDownsampled/train/images  # Path to training images
+val: /content/drive/MyDrive/pest-dataset/HighDownsampled/val/images      # Path to validation images
+
+# Number of classes
+nc: 2  # Assuming only "whitefly" is the class
+
+# Class names
+names: ['class_0','class_1']
